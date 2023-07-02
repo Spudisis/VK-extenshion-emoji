@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "reaction VK",
+	"description": "Auto set reaction to message",
+	"version": "1.0.0",
+
+	"content_scripts": [
+		{
+			"matches": ["https://vk.com/*"],
+
+			"js": ["script.js"],
+			"run_at": "document_end"
+		}
+	],
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"permissions": ["scripting", "activeTab"]
+}
