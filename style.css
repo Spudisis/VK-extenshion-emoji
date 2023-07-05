@@ -1,0 +1,23 @@
+body {
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.input {
+	width: 100%;
+	margin: 5px 0px;
+	border-radius: 10px;
+	height: 60px;
+	border: 1px solid gray;
+}
+.button {
+	border-radius: 10px;
+	font-size: 16px;
+	background-color: black;
+	color: white;
+	outline: none;
+	border: none;
+	padding: 5px;
+	margin: 5px 0px;
+}
